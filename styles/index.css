@@ -108,3 +108,23 @@ button,
     text-align: left;
 
 }
+
+
+/* online games section related styles */
+.online-games{
+    padding: 7.5rem 15rem;
+    background: #FFF;
+}
+.games-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* play instantly related styles */
+.play-instantly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
