@@ -111,20 +111,132 @@ button,
 
 
 /* online games section related styles */
-.online-games{
-    padding: 7.5rem 15rem;
+.online-games {
+    margin: 7.5rem 15rem;
     background: #FFF;
 }
-.games-img{
+
+.online-games-content h3 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-content p {
+    color: #534C64;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.games-img {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
 }
 
+.games-img p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
 /* play instantly related styles */
-.play-instantly{
+.play-instantly {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 16.5rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.play-instantly-content h3 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.play-instantly-content p {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.play-instantly-img {
+    width: 100%;
+}
+
+.second-img {
+    position: relative;
+    top: -300px;
+    left: -100px;
+}
+
+/* games option related styles */
+.game-options {
+    margin-top: 0;
+    flex-wrap: wrap;
+}
+
+.game-options p {
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* footer related styles */
+footer {
+    background: #0B0223;
+    margin-top: 8rem;
+    padding: 7.5rem 15rem;
+    text-align: center;
+}
+
+.white {
+    color: #FFF;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.footer-links {
+    margin-top: 4.5rem;
+}
+
+.footer-links a {
+    padding-top: 4rem;
+    margin-right: 2.5rem;
+}
+
+.footer-cookies {
+    margin-top: 4.5rem;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    justify-content: center;
+    gap: 3.75rem;
 }
