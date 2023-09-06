@@ -346,7 +346,7 @@ footer {
     nav, .nav-bars ul{
         gap:3rem;
     }
-    .gamer, footer{
+    .gamer, footer, .nav-bars{
         text-align:center;
         padding: 2rem;
     }
