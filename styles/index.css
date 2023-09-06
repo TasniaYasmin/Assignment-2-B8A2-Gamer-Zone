@@ -230,10 +230,6 @@ button,
     opacity: 1;
 }
 
-.games-img:hover {
-    /* Adjust the brightness level */
-}
-
 .games-img p {
     color: #534C64;
     font-size: 1.25rem;
@@ -350,16 +346,20 @@ footer {
     nav, .nav-bars ul{
         gap:3rem;
     }
-    .gamer{
+    .gamer, footer{
         text-align:center;
         padding: 2rem;
     }
     .online-games{
         margin: 0rem;
     }
-    .game-options{
+    .game-options, .footer-content, .footer-links{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+    }
+    .footer-cookies{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 
 }
